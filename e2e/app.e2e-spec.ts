@@ -1,14 +1,14 @@
-import { MainProjectPage } from './app.po';
+import { Angular2Page } from './app.po';
 
-describe('main-project App', () => {
-  let page: MainProjectPage;
+describe('angular2 App', () => {
+  let page: Angular2Page;
 
   beforeEach(() => {
-    page = new MainProjectPage();
+    page = new Angular2Page();
   });
 
   it('should display welcome message', () => {
     page.navigateTo();
-    expect(page.getParagraphText()).toEqual('Welcome to app!!');
+    expect(page.getParagraphText()).toEqual('Welcome to app!');
   });
 });

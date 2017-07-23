@@ -18,6 +18,7 @@ import { ShopListEditComponent } from './shoppingList/shopListEdit/shopListEdit.
     recipeListComponent,
     recipeDetailComponent,
     recipeItemComponent,
+    shoppingListComponent,
     ShopListEditComponent
   ],
   imports: [

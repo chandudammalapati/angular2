@@ -5,11 +5,13 @@ import { AppComponent } from './app.component';
 import { HttpModule } from '@angular/http';
 import { headerComponent } from './header/header.component';
 import { recipesComponent } from './recipes/recipes.component';
+import { recipeListComponent } from './recipes/recipeList/recipeList.component'
 @NgModule({
   declarations: [
     AppComponent,
     headerComponent,
-    recipesComponent
+    recipesComponent,
+    recipeListComponent
   ],
   imports: [
     FormsModule,

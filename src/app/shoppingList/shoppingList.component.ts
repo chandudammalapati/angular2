@@ -3,7 +3,7 @@ import { Ingredient } from '../shared/ingredient.modal';
 @Component({
     selector: 'app-shoppingList',
     templateUrl: 'shoppingList.component.html',
-    styleUrls: ['shoppingList.component.css']
+    styleUrls: ['shoppingList.component.scss']
 })
 
 export class shoppingListComponent implements OnInit {
